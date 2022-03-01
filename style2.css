@@ -1,0 +1,432 @@
+/* Content */
+
+.toolbo {
+  color: #0c8484;
+}
+.toolbo p {
+  margin: 8px 0 0 0;
+  line-height: 1.714285714;
+}
+.toolbo h3 {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.tooltext {
+  background: #fff;
+  border-top: 3px solid #1482a6;
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px dashed #344e7f;
+}
+.tooltexp {
+  background: #fff;
+  border-top: 3px solid #5bc0de;
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px dashed #344e7f;
+}
+.boxbox {
+  background: ghostwhite;
+  border-radius: 3px;
+  box-shadow: 0 0 15px #ccc;
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
+.tops {
+  margin-top: 8px;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  border: 2px solid;
+  border-radius: 3px;
+  background: #dfe6e8;
+  height: 29px;
+  color: #0b7171;
+  padding: 0 10px;
+  cursor: pointer;
+  vertical-align: bottom;
+  border-color: #0b7171 #0c8484 #0c8484 #0b7171;
+  font: 14px/1.6em Helvetica, Arial, sans-serif;
+}
+select {
+  border: 1px solid #dfdfdf;
+}
+textarea {
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 300px;
+  border: 2px solid #dfe6e8;
+  background: #f5fffa;
+  overflow: auto;
+}
+
+/* Distance */
+
+.overflowxy {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.overflowxy::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+}
+.overflowxy::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid #fff;
+  background-color: rgba(255, 211, 6, 1);
+}
+
+/* line */
+
+.imtex {
+  background: #fbfbfb;
+  border-radius: 3px;
+  border: 1px solid #eaeaea;
+  padding: 3px;
+}
+.if_checkbox {
+  background: #fff;
+  line-height: 25px;
+  color: #006030;
+  word-spacing: 25px;
+  letter-spacing: 0;
+  padding: 5px;
+  border: 1px solid #dfdfdf;
+}
+.itoota {
+  background: #e5edf2;
+  color: #5b5b5b;
+  padding: 5px;
+  border: 1px solid #c2d5e3;
+  border-radius: 5px;
+}
+.itootb {
+  background: #ffecec;
+  color: #5b5b5b;
+  padding: 5px;
+  border: 1px solid #ffcccc;
+  border-radius: 5px;
+}
+.itootc {
+  background: #f8eff8;
+  color: #5b5b5b;
+  padding: 5px;
+  border: 1px solid #dfcdde;
+  border-radius: 5px;
+}
+.itootd {
+  background: #fcf6e6;
+  color: #5b5b5b;
+  padding: 5px;
+  border: 1px solid #ffcc66;
+  border-radius: 5px;
+}
+.text1 {
+  width: 35px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid #dfdfdf;
+}
+.text2 {
+  width: 75px;
+  height: 27px;
+  text-align: left;
+  line-height: 27px;
+  padding: 0 3px;
+  border: 1px solid #dfdfdf;
+}
+.text3 {
+  width: 97%;
+  max-width: 243px;
+  height: 27px;
+  text-align: left;
+  line-height: 27px;
+  padding: 0 3px;
+  border: 1px solid #dfdfdf;
+}
+.text4 {
+  width: 97%;
+  max-width: 478px;
+  height: 27px;
+  text-align: left;
+  line-height: 27px;
+  padding: 0 3px;
+  border: 1px solid #dfdfdf;
+}
+.text5 {
+  text-align: left;
+  margin: 0px;
+  display: inline;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+.text6 {
+  border: none;
+  border-bottom: 1px solid #dfdfdf;
+}
+.taggll {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 0 5px;
+  font-weight: 700;
+  border-radius: 3px;
+  color: #fff;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.taggls {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  height: 42px;
+  line-height: 42px;
+  font-weight: 700;
+  border-radius: 3px;
+  color: #fff;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.taggln {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 0 8px 5px;
+  white-space: nowrap;
+  display: inline-block;
+  text-decoration: none;
+}
+.taggllz {
+  padding: 0 5px;
+  font-size: 12px;
+  border-radius: 3px;
+  color: #000;
+  white-space: nowrap;
+  border-left: 3px solid #f08080;
+  border-right: 3px solid #f08080;
+}
+.if_titlename {
+  color: #000;
+  font-weight: bold;
+  margin: 12px 0;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: 6px solid #ecd9a9;
+  border-bottom: 2px solid #ecd9a9;
+  display: block;
+}
+.if_triangle {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0 2px;
+}
+.if_boxa {
+  color: #e6442b;
+  padding-left: 4px;
+  letter-spacing: 2px;
+  border-left: 3px solid #ff8a3d;
+}
+.if_boxb {
+  color: #be1b54;
+  padding-left: 4px;
+  letter-spacing: 2px;
+  border-left: 3px solid #b766ad;
+}
+.if_boxc {
+  color: #000000;
+  padding-left: 4px;
+  letter-spacing: 2px;
+  border-left: 3px solid #ff5151;
+}
+.if_boxd {
+  color: #ad5d25;
+  padding-left: 4px;
+  letter-spacing: 2px;
+  border-left: 3px solid #d26900;
+}
+.if_boxe {
+  color: #336666;
+  padding-left: 4px;
+  letter-spacing: 2px;
+  border-left: 3px solid #5cadad;
+}
+.if_boxf {
+  color: #80ae28;
+  padding-left: 4px;
+  letter-spacing: 2px;
+  border-left: 3px solid #59a932;
+}
+.if_btn {
+  display: inline-block;
+  position: relative;
+  margin: 0 5px;
+  padding: 7px;
+  cursor: pointer;
+  color: #fff;
+  background: #fb956c;
+  white-space: nowrap;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  box-shadow: 1px 1px 0 #e14506, 2px 2px 0 #e14506, 3px 3px 0 #e14506;
+  vertical-align: top;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+.if_btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.if_btn:hover {
+  background: #fa7c49;
+}
+.if_btn.on,
+.if_btn:active {
+  left: 2px;
+  top: 2px;
+  box-shadow: 1px 1px 0 #e14506;
+}
+.if_btn.blue {
+  background: #70a7f5;
+  box-shadow: 1px 1px 0 #116cee, 2px 2px 0 #116cee, 3px 3px 0 #116cee;
+}
+.if_btn.blue:hover {
+  background: #4f92f3;
+}
+.if_btn.blue:active {
+  box-shadow: 1px 1px 0 #116cee;
+}
+.if_btn.green {
+  background: #77d88e;
+  box-shadow: 1px 1px 0 #2ea14a, 2px 2px 0 #2ea14a, 3px 3px 0 #2ea14a;
+}
+.if_btn.green:hover {
+  background: #5bd077;
+}
+.if_btn.green:active {
+  box-shadow: 1px 1px 0 #2ea14a;
+}
+.if_btn.azure {
+  background: #55bee6;
+  box-shadow: 1px 1px 0 #156888, 2px 2px 0 #156888, 3px 3px 0 #156888;
+}
+.if_btn.azure:hover {
+  background: #40b3df;
+}
+.if_btn.azure:active {
+  box-shadow: 1px 1px 0 #156888;
+}
+
+.calendar-week {
+  height: 24px;
+  background: #ffffff;
+}
+.calendar-week li {
+  float: left;
+  width: 76px;
+  list-style: none;
+  text-align: center;
+  border-right: 1px solid #c00;
+}
+.calendar-week li.right {
+  border: none;
+}
+.calendar-datail {
+  line-height: 22px;
+}
+.calendar-datail a {
+  float: left;
+  width: 75px;
+  border: 1px #ffffe5 solid;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 6px 0;
+}
+.calendar-datail a:hover {
+  border: 1px #fee69e solid;
+  background: #fff8e2;
+}
+.calendar-datail a.today {
+}
+.calendar-datail a:link,
+.calendar-datail a:visited {
+  color: #000;
+  text-decoration: none;
+}
+.calendar-datail a.selected-day {
+  border: 1px #f8cb00 solid;
+  background: #f5e082;
+}
+.calendar-datail a.other-day,
+.calendar-datail a.other-day span {
+  color: #999999;
+}
+.calendar-datail a span {
+  color: #666;
+}
+.calendar-datail a.red {
+  color: #ff0000;
+}
+.calendar-datail a.red span {
+  color: #666;
+}
+.calendar-datail a.green span {
+  color: #48a01b;
+}
+.calendar-datail a:hover {
+  text-decoration: none;
+}
+.calendar-datail a span {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+#calendar-tb,
+.calendar-tb {
+  font-family: verdana, arial, mingliu;
+  font-size: 13px;
+  clear: both;
+  margin: 0 auto;
+}
+.calendar-datsa {
+  border: 1px dotted #cccccc;
+  padding: 5px;
+  background: #fff;
+  margin: 24px 1px;
+  text-align: center;
+}
+.calendar-datcha {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  background: #fcfcfc;
+  margin: 10px 1px;
+  text-align: center;
+}
+.calendar-datche {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
